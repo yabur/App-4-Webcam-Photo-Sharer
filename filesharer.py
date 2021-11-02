@@ -4,7 +4,7 @@ from filestack import Client
 class FileSharer:
     """docstring for FileSharer"""
 
-    def __init__(self, filepath, api_key):
+    def __init__(self, filepath, api_key = 'Auzw2BqSyiDavCOclqgAGz'):
         self.filepath = filepath
         self.api_key = api_key
 
